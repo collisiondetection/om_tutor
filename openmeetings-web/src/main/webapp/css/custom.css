@@ -1,0 +1,7 @@
+/* Licensed under the Apache License, Version 2.0 (the "License") http://www.apache.org/licenses/LICENSE-2.0 */
+.video-scroll-container {
+	border: 1px solid #888888;
+	overflow: auto;
+	position: relative;
+	background-color: transparent;
+}
