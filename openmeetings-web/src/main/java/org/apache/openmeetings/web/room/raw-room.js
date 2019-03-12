@@ -124,7 +124,7 @@ var Room = (function() {
 		Chat.setHeight(h);
 		if (typeof(WbArea) !== 'undefined') {
 			const chW = chat.width();
-            WbArea.resize(sbW + 5, chW + 5, w - chW, h);
+            WbArea.resize(sbW + 5, chW + 5, w - chW, h-150);
             // New  video container resize
             vidScrollResize(sbW + 5, chW + 5 ,w - chW);
 		}
